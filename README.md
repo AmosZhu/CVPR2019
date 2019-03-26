@@ -1,7 +1,7 @@
 # Depth from a polarisation + RGB stereo pair
 ![alt text](https://github.com/AmosZhu/CVPR2019/blob/master/Illustration.png)
 
-This repostiory is the implementation of the paper. It contains two part: 1. Using graphical model to correct normal from polarisation images. 2. Estimate final depth with linear equation described by section 6 in the paper. These two parts constitute the pipeline of the paper, but they can run independently. e.g. If you have a coarse depthmap from other source (i.e kinect, multi-view), you can still run the code through the pipe line. Or you have a corrected normal map not from our "Normal correction" you can jump to "Depth estimation" but be specify with camera matrix.
+This repostiory is the implementation of the paper. It contains two part: 1. Using graphical model to correct normal from polarisation images. 2. Estimate final depth with linear equation described by section 6 in the paper. These two parts constitute the pipeline of the paper, but they can run independently. e.g. If you have a coarse depthmap from other source (i.e kinect, multi-view), you can still run the code through the pipe line. Or you have a corrected normal map not from our "Normal correction" you can jump to "Depth estimation" but be specify with other parameters. Please refer the 'data' folder.
 
 If you have anything concerned, please fell free to contact me. 
 
