@@ -17,7 +17,7 @@ In order to install OpenGM please refer [Installing OpenGM with Python wrapper](
 
       sudo apt-get install libopengm-bin libopengm-dev libopengm-doc python-opengm python-opengm-doc
       
- [Estimate polarisation information from images](https://github.com/waps101/depth-from-polarisation)
+ [Estimate polarisation information from polarimetric images](https://github.com/waps101/depth-from-polarisation)
  
 
 # Citation
