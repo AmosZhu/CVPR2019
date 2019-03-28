@@ -20,5 +20,17 @@ In order to install OpenGM please refer [Installing OpenGM with Python wrapper](
  [Estimate polarisation information from polarimetric images](https://github.com/waps101/depth-from-polarisation)
  
 
-# Citation
-If you use the code please cite:
+## Citation
+
+If you use this code in your research, please cite the following paper:
+
+D. Zhu and W.A.P. Smith. Depth from a polarisation + RGB stereo pair. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+Bibtex:
+
+    @inproceedings{zhu2019depth,
+      title={Depth from a polarisation + RGB stereo pair},
+      author={Zhu, Dizhong and Smith, William AP},
+      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2019}
+    }
