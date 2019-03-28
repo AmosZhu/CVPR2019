@@ -3,7 +3,7 @@
 
 This repostiory is the implementation of the paper. It contains two part: 1. Using graphical model to correct normal from polarisation images. 2. Estimate final depth with linear equation described by section 6 in the paper. These two parts constitute the pipeline of the paper, but they can run independently. e.g. If you have a coarse depthmap from other source (i.e kinect, multi-view), you can still run the code through the pipe line. Or you have a corrected normal map not from our "Normal correction" you can jump to "Depth estimation" but be specify with other parameters. Please refer the 'data' folder.
 
-If you have anything concerned, please fell free to contact me. 
+If you have any concerned, please fell free to contact me. 
 
 # Normal correction
 This part is implemented under python2.7 with OpenGM library, it takes a corse depth map (In theory, it can take any source of depthmap as long as it aligned with polarisation images. In our paper, the coarse depth is from stereo reconstruction) and polarisation images as input, The output is the corrected normal and estimated specular mask from polarisation information.
