@@ -6,7 +6,7 @@ This repostiory is the implementation of the paper. It contains two part: 1. Usi
 If you have any concerned, please fell free to contact me. 
 
 # Normal correction
-This part is implemented under python2.7 with OpenGM library, it takes a corse depth map (In theory, it can take any source of depthmap as long as it aligned with polarisation images. In our paper, the coarse depth is from stereo reconstruction) and polarisation images as input, The output is the corrected normal and estimated specular mask from polarisation information.
+This part is implemented under python2.7 with OpenGM library, it takes a corse depth map (In theory, it can take any source of depthmap as long as it aligned with polarisation images. In our paper, the coarse depth is from stereo reconstruction) and polarisation images as input, The output are the corrected normal and estimated specular mask from polarisation information.
 
 # Depth estimation
 This part is implemented under Matlab. It takes corrected normal, (But can be any kind of "guide" surface normal), estimated specular mask, polarisation images, light source and camera matrix. It estimate the albedo and depth of the object.
